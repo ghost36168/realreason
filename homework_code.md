@@ -28,4 +28,11 @@
         smaller = quick_sort(smaller)
         bigger = quick_sort(bigger)
         return smaller + keylist + bigger
-當中
+當中核心觀念:在quick_sort 的排序是通過比大小而來的。
+恰好quicksort本身的演算法就是重複與list的最後一值比較，進而切分成區段
+跟最後一值比較，只有三種情況，要嘛大於、小於、等於
+基於上述觀念:
+所以才分三類
+剛開始這三類先讓它空著，等比大小再裝進去，保持靈活調度空間
+然後就與key(最後一值)比大小，裝近三個袋子中
+倒數第三行與第二行，應該是通篇程式碼最難處
