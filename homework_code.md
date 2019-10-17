@@ -7,25 +7,25 @@
 解釋
 ------
 
-def quick_sort(list): <br>  
-    smaller = [] <br>  
-    bigger = [] <br>  
-    keylist = [] <br>  
+    def quick_sort(list):  
+        smaller = []   
+        bigger = []   
+        keylist = []   
 
-    if len(list) <= 1:
-        return list
+        if len(list) <= 1:
+            return list
 
-    else:
-        key = list[-1] #最後一個數為key值
-        for i in list:
-            if i < key: #比key值小的數
-                smaller.append(i)
-            elif i > key: #比key值大的數
-                bigger.append(i)
-            else:
-                keylist.append(i)
+        else:
+            key = list[-1] #最後一個數為key值
+            for i in list:
+                if i < key: #比key值小的數
+                    smaller.append(i)
+                elif i > key: #比key值大的數
+                    bigger.append(i)
+                else:
+                    keylist.append(i)
 
-    smaller = quick_sort(smaller)
-    bigger = quick_sort(bigger)
-    return smaller + keylist + bigger
+        smaller = quick_sort(smaller)
+        bigger = quick_sort(bigger)
+        return smaller + keylist + bigger
 當中
