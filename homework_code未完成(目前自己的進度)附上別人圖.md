@@ -52,4 +52,4 @@
 
 別人流程圖
 ------
-![image](別人流程圖jpg)
+![image](https://github.com/ghost36168/realreason/blob/master/%E5%9C%96%E7%89%87/%E5%88%A5%E4%BA%BA%E6%B5%81%E7%A8%8B%E5%9C%96.png)
