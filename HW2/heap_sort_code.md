@@ -1,30 +1,10 @@
-條件限制:奇數&正整數
-s=len(alist)
-k=int((s-2)/2)
-while s<=len(alist) and s>= 2:
-    if alist[2*k+1] > alist[k] and alist[2*k+2]>alist[k]:
-        if alist[2*k+1] > alist[2*k+2]:
-            temp=[]
-            temp=alist[k]
-            alist[k]=alist[2*k+1]
-            alist[2*k+1]=temp
-        else :
-            temp=[]
-            temp=alist[k]
-            alist[k]=alist[2*k+2]
-            alist[2*k+2]=temp
-    elif alist[2*k+1] > alist[k] and alist[2*k+2] < alist[k]:
-        temp=[]
-        temp=alist[k]
-        alist[k]=alist[2*k+1]
-        alist[2*k+1]=temp
-    elif alist[2*k+2] > alist[k] and alist[2*k+1] < alist[k]:
-        temp=[]
-        temp=alist[k]
-        alist[k]=alist[2*k+2]
-        alist[2*k+2]=temp
-    else:
-        alist[k]=alist[k]
-        alist[2*k+1]=alist[2*k+1]
-        alist[2*k+2]=alist[2*k+2]
-s=s-1
+我的思考流程:
+------
+一開始我就想，heap_sort也是sort，亦即比大小
+那比大小，最基本的就是要知道: 誰與誰，比大小
+我分兩個部分分析:
+誰與誰--特定位置的相比問題
+比大小--上下比、如何執行
+Part誰與誰:
+因為heap sort具有特定形式的方式去做比較，譬如index[1]下方，固定要跟index[3]、index[4]比大小，不論這棵樹有多大
+且還有一些特性，譬如除了零之外，奇數在
