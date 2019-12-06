@@ -38,8 +38,34 @@
 流程圖
 ------
 ![image](https://github.com/ghost36168/realreason/blob/master/%E5%9C%96%E7%89%87/HW4(%E6%89%8B%E7%B9%AA)%E6%B5%81%E7%A8%8B%E5%9C%96.jpg)
+
 學習歷程
 ------
        技術債，就是債，要記的還，否則很慘!!!!!!!
        如果不談Linked List欠債問題，這次重心理當在如何銜接，兩種截然不同的資料結構
-       所以
+       之所以這麼想是因為，老師這次講得太清楚了，清楚到就幾乎只剩技術問題，不存在觀念上、理念上歧異的問題。
+       我目前的技術問題卡在為甚麼
+       老師的程式碼中
+       class MyHashSet:
+    def __init__(self,capacity=5):
+        self.capacity = capacity
+        self.data = [None] * capacity
+    def add(self,key: int) ->None:
+        idx =key% self.capacity
+        node =self.data[idx]
+        while node:
+            if node.val == key:
+                return
+            node = node.next
+        new_node = ListNode(key)
+        new_node.next = self.data[idx]
+        self.data[idx] = new_node
+        ...
+        node.val 從甚麼地方跑出來的，百思不得其解，就開始亂想
+        self.xxx
+        xxx 可以亂填
+        但它是node不是self
+        難道 self.val 完全等同 node.val ???
+        完全想不通
+        唉    
+        
