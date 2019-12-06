@@ -67,5 +67,5 @@
         但它是node不是self
         難道 self.val 完全等同 node.val ???
         完全想不通
-        唉    
+        唉!我再想想吧!!
         
