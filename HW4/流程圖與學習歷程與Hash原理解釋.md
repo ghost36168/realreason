@@ -24,7 +24,7 @@
         雜湊表Hash Table是一種儲存（Key,Value）的資料結構，通常一個Key就是對應一個Value，Value就是要儲存的資料，
         Key則可以想像成這筆資料的標籤，想要找到這筆資料就需要有這筆資料的Key去搜尋
         應用流程:
-        第一階段
+        第一階段 Array
         (Key)                 (hash value)     (stored index)
     Joe  → (Hash function) →   4928   mod 5   =   3
     Sue  → (Hash function) →   7291   mod 5   =   1
@@ -32,8 +32,8 @@
     Nell → (Hash function) →   6276   mod 5   =   1
     Ally → (Hash function) →   9143   mod 5   =   3
     Bob  → (Hash function) →   5278   mod 5   =   3
-        第二階段
-        
+        第二階段 Linked List:(下方的圖片)
+   ![image](https://github.com/ghost36168/realreason/blob/master/%E5%9C%96%E7%89%87/%E9%A1%9E%E4%BC%BC%E8%80%81%E5%B8%AB%E7%9A%84%E6%B5%81%E7%A8%8B%E5%9C%96%E4%BD%86%E6%98%AF%E6%88%91%E5%9C%A8%E7%B6%B2%E8%B7%AF%E4%B8%8A%E6%89%BE%E7%9A%84.png)
         
 流程圖
 ------
