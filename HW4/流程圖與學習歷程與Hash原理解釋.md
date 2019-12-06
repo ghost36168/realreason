@@ -23,6 +23,17 @@
         簡單說
         雜湊表Hash Table是一種儲存（Key,Value）的資料結構，通常一個Key就是對應一個Value，Value就是要儲存的資料，
         Key則可以想像成這筆資料的標籤，想要找到這筆資料就需要有這筆資料的Key去搜尋
+        應用流程:
+        第一階段
+        (Key)                 (hash value)     (stored index)
+    Joe  → (Hash function) →   4928   mod 5   =   3
+    Sue  → (Hash function) →   7291   mod 5   =   1
+    Dan  → (Hash function) →   1539   mod 5   =   4
+    Nell → (Hash function) →   6276   mod 5   =   1
+    Ally → (Hash function) →   9143   mod 5   =   3
+    Bob  → (Hash function) →   5278   mod 5   =   3
+        第二階段
+        
         
 流程圖
 ------
