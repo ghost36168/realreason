@@ -40,3 +40,6 @@
 ![image](https://github.com/ghost36168/realreason/blob/master/%E5%9C%96%E7%89%87/HW4(%E6%89%8B%E7%B9%AA)%E6%B5%81%E7%A8%8B%E5%9C%96.jpg)
 學習歷程
 ------
+       技術債，就是債，要記的還，否則很慘!!!!!!!
+       如果不談Linked List欠債問題，這次重心理當在如何銜接，兩種截然不同的資料結構
+       所以
