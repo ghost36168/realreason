@@ -31,3 +31,5 @@
     因此多出一個原則--重複的不要放進去
 
     重複這動作
+圖片
+![image](https://github.com/ghost36168/realreason/blob/master/%E5%9C%96%E7%89%87/hW5.jpg)
