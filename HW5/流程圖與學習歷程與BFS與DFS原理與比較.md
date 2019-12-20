@@ -40,4 +40,5 @@
         所以我觀察這張圖和我列的順序，思考我該怎麼實現，所以我先用list做實驗，分析過程中會遇到甚麼問題，因為直接用物件導向，臨時看不出有沒有出錯
 圖片
 -------
+![image](https://github.com/ghost36168/realreason/blob/master/%E5%9C%96%E7%89%87/HW5%E6%A8%A1%E6%93%AC.PNG)
 
