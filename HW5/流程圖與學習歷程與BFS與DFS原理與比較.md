@@ -1,3 +1,8 @@
+參考資料
+====
+https://blog.csdn.net/u011437229/article/details/53188837
+https://www.javatpoint.com/breadth-first-search-algorithm
+https://www.itread01.com/content/1543634648.html
 流程圖
 ------
     先有個起始點
@@ -59,4 +64,15 @@
 圖片
 -------
 ![image](https://github.com/ghost36168/realreason/blob/master/%E5%9C%96%E7%89%87/HW5%E6%A8%A1%E6%93%AC.PNG)
+
+BFS原理
+------
+    精神:先找最靠近自己的
+DSF原理
+------
+    精神:一直往深處走，直到找到解或者走不下去為止
+兩者比較
+------
+    兩者不同處:基本精神就不同了
+    兩者相同處:基本演算是相同的
 
