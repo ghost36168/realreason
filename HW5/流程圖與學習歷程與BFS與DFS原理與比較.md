@@ -34,3 +34,7 @@
 圖片
 ------
 ![image](https://github.com/ghost36168/realreason/blob/master/%E5%9C%96%E7%89%87/hW5.jpg)
+
+學習歷程
+------
+        所以我觀察這張圖和我列的順序，思考我該怎麼實現
