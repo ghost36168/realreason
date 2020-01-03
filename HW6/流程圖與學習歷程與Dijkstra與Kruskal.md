@@ -7,6 +7,7 @@
 ------
 ![img](https://github.com/ghost36168/realreason/blob/master/%E5%9C%96%E7%89%87/%E6%BC%94%E7%AE%97%E6%B3%9501.jpg)
 
+![img](https://github.com/ghost36168/realreason/blob/master/%E5%9C%96%E7%89%87/Kruskal's%20Algorithm.gif)
 Dijkstra原理說明
 ------
         1.定義概覽
