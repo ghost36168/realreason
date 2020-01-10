@@ -11,12 +11,18 @@
 - [階段1--理解別人的程式碼]
 (https://www.codenong.com/jseddd226b3173/)
    - 因為我那時還不懂甚麼是self.next
-   -所以觀察別人怎麼使用self.next，等等問題
+   
 - [觀察到的重點]
    - 原來self.next使用方法是如此
-   -ob = Linklist()
- ---
+
+week01
+----
+week02
+----
+week03
+----
  # 心得:
  ## 太多不懂了，沒什麼太多想說明的
  
  
+
