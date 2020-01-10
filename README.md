@@ -17,9 +17,35 @@
 
 week01
 ----
+    上課計分規則
 week02
 ----
+    LinkedList
 week03
+----
+    Stack&Queue
+week04
+----
+    Insertion Sort
+week05
+----
+    Quick Sort
+week06
+----
+    Heap Sort
+week07
+----
+    Merge Sort
+week08
+----
+    Binary Tree
+week09
+----
+    BlockChain
+week10
+----
+    Binary Search Tree
+week11
 ----
  # 心得:
  ## 太多不懂了，沒什麼太多想說明的
