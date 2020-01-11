@@ -47,6 +47,19 @@ week10
     Binary Search Tree
 week11
 ----
+    Red Black Tree
+week12
+----
+    Breadth-First Search
+week13
+----
+    Depth-First Search
+week14
+----
+    Minimum Spanning Tree
+week15
+----
+    Shortest Path
  # 心得:
  ## 太多不懂了，沒什麼太多想說明的
  
